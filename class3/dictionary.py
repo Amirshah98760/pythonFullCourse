@@ -133,3 +133,21 @@ print(mobileInfo["storage"])
 print(mobileInfo["price"])
 
 print(type(mobileInfo))
+
+studentResult ={
+    "name":"Hasnain shah",
+    "subjects":{
+        "Math": 85,
+        "Physics": 90,
+        "Chemistry": 80
+    },
+    "grade":"A",
+    "percentage": 85
+}
+
+print(studentResult["name"])
+print(studentResult["subjects"]["Math"])    
+print(studentResult["subjects"]["Physics"])
+print(studentResult["subjects"]["Chemistry"])
+print(studentResult["grade"])
+print(studentResult["percentage"])
