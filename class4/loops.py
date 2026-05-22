@@ -89,4 +89,13 @@ for task in tasks:
     print("Running:", task)
 
 
-list = []
+for i in range(1,11):
+    print('5 *', i, '=', 5 * i)
+
+
+# Print star pattern using nested loops.
+
+for i in range(5):
+    for j in range(i + 1):
+        print("*", end="")
+    print()
